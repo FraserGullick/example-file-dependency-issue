@@ -1,0 +1,22 @@
+{
+  "name": "example-file-dependency-issue",
+  "version": "1.0.0",
+  "description": "An example repo to highlight a problem we've had around file based dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FraserGullick/example-file-dependency-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FraserGullick/example-file-dependency-issue/issues"
+  },
+  "homepage": "https://github.com/FraserGullick/example-file-dependency-issue#readme",
+  "dependencies": {
+    "mathjs": "github:josdejong/mathjs#v7.1.0"
+  }
+}
